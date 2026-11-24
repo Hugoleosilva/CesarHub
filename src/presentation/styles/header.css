@@ -1,0 +1,78 @@
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--header-bg);
+  color: var(--header-text);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+/* Uma faixa estreita, no estilo do KnowBe4: marca à esquerda, abas com sublinhado, busca e ações à direita. */
+.header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 24px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 24px;
+  min-height: var(--header-h);
+}
+.brand { order: 1; display: flex; align-items: center; gap: 10px; font-size: 1.15rem; font-weight: 700; letter-spacing: 0; white-space: nowrap; }
+.brand__name strong { color: var(--brand-accent); font-weight: 700; }
+.header__actions { order: 4; margin-block: 8px; display: flex; align-items: center; gap: 10px; }
+
+/* Abas com sublinhado na ativa */
+.tabs { order: 2; align-self: stretch; display: flex; flex: 0 1 auto; min-width: 0; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs__item {
+  flex-shrink: 0;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: inherit;
+  opacity: 0.8;
+  font: inherit;
+  padding: 0 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tabs__item:hover { opacity: 1; }
+.tabs__item.is-active { border-bottom-color: var(--accent); opacity: 1; font-weight: 600; }
+
+/* Busca */
+/* A busca cede espaço ao menu: cresce até 260px, encolhe até 140px e fica à direita. */
+.search { order: 3; position: relative; margin-block: 8px; flex: 1 1 140px; min-width: 140px; max-width: 260px; margin-left: auto; }
+.search__input {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+/* Dicas de teclado só quando há espaço, para nunca cobrir o texto digitado. */
+.search__hints { display: none; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); font-size: 0.72rem; color: var(--muted); white-space: nowrap; pointer-events: none; }
+@media (min-width: 1360px) {
+  .search { max-width: 340px; }
+  .search__input { padding-right: 150px; }
+  .search__input:placeholder-shown ~ .search__hints { display: block; }
+}
+kbd { background: var(--surface-2); border-radius: 4px; padding: 1px 6px; font: inherit; }
+.search__list {
+  position: absolute;
+  inset: calc(100% + 8px) 0 auto 0;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 40px var(--shadow);
+}
+.search__list li { display: flex; justify-content: space-between; gap: 12px; padding: 9px 12px; border-radius: 8px; cursor: pointer; }
+.search__list li:hover, .search__list li.is-active { background: var(--surface-2); }

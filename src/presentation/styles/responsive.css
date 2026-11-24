@@ -1,0 +1,19 @@
+/* Celular/janela estreita: marca + ações em cima, depois abas (rolam na horizontal) e busca. */
+@media (max-width: 860px) {
+  .header__inner { gap: 10px; padding: 10px 16px; }
+  .brand { flex: 0 0 auto; }
+  .header__actions { order: 1; margin-left: auto; }
+  .tabs { order: 2; flex: 1 0 100%; }
+  .tabs__item { padding: 10px 12px; }
+  .search { order: 3; flex: 1 0 100%; max-width: none; margin-left: 0; }
+  .main { padding: 16px; }
+  .hero__content { padding: 20px; }
+  /* Estreito: o texto ocupa quase tudo, então o escurecimento é uniforme. */
+  .hero__media::after { background: rgba(0, 0, 0, 0.62); }
+  .hero__media .cover { opacity: 0.35; } /* o símbolo não compete com o texto */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-wrap, .skeleton, .carousel__btn, .fav { transition: none; animation: none; }
+  .card-wrap:hover, .card-wrap:focus-within { transform: none; }
+}

@@ -1,0 +1,8 @@
+/* Catálogo */
+.main { max-width: 1600px; margin: 0 auto; padding: 24px; }
+.category { margin-bottom: 32px; }
+.category__head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+.category__title { font-size: 1.35rem; padding-left: 12px; border-left: 4px solid var(--accent); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; margin-top: 8px; }
+.category__actions { display: flex; align-items: center; gap: 14px; }
+

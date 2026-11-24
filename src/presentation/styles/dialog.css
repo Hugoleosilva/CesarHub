@@ -1,0 +1,29 @@
+.modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: rgba(0, 0, 0, 0.6); }
+.dialog { display: flex; flex-direction: column; gap: 14px; width: min(420px, 100%); max-height: 90vh; padding: 24px; border-radius: var(--radius); background: var(--surface); color: var(--text); border: 1px solid var(--border); box-shadow: 0 24px 60px var(--shadow); }
+.dialog__form { display: flex; flex-direction: column; gap: 14px; }
+.dialog--wide { width: min(640px, 100%); }
+.dialog__hint { color: var(--muted); font-size: 0.9rem; }
+.dialog__body { overflow-y: auto; display: flex; flex-direction: column; gap: 18px; }
+.dialog__actions { display: flex; justify-content: flex-end; gap: 10px; }
+.field { display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; }
+.field input { padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; }
+.field input[aria-invalid='true'] { border-color: #ef4444; }
+.field__error { color: #ef4444; font-size: 0.8rem; }
+.pick { margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 4px; }
+.pick legend { padding: 0 0 6px; font-weight: 700; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 4px; }
+.pick__item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 10px; border-radius: 8px; cursor: pointer; }
+.pick__item:hover { background: var(--surface-2); }
+.pick__item input { margin-top: 4px; accent-color: var(--accent); }
+.pick__item span { display: flex; flex-direction: column; }
+.pick__item small { color: var(--muted); }
+.pick__item--link { cursor: default; align-items: center; justify-content: space-between; }
+.pick__item--link:hover { background: transparent; }
+.pick__check { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+.pick__check input { accent-color: var(--accent); }
+.pick__buttons { display: flex; flex-direction: row !important; gap: 6px; }
+.pick__add { align-self: flex-start; margin-top: 6px; }
+.pick__check--small { font-size: 0.82rem; color: var(--muted); }
+.dialog:focus { outline: none; }
+.field textarea { padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; resize: vertical; }
+.field textarea[aria-invalid='true'] { border-color: #ef4444; }
+.help { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 0.92rem; }

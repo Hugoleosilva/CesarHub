@@ -1,0 +1,9 @@
+/* Estados */
+.state { text-align: center; padding: 80px 16px; color: var(--muted); }
+.state h2 { color: var(--text); margin-bottom: 8px; }
+.state .btn { margin-top: 16px; }
+.state__detail { display: inline-block; text-align: left; max-width: 100%; overflow: auto; background: var(--surface); padding: 12px; border-radius: 8px; font-size: 0.8rem; }
+.skeletons { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.skeleton { aspect-ratio: 5 / 8; border-radius: var(--radius); background: linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 50%, var(--surface) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+.empty-hint { padding: 20px; border: 1px dashed var(--border); border-radius: var(--radius); color: var(--muted); font-size: 0.9rem; }

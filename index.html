@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e1116" />
+    <meta name="description" content="Todos os serviços e ferramentas do CESAR em um só lugar." />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <title>CESAR Hub</title>
+    <script>
+      // Aplica o tema salvo antes da primeira pintura, evitando o flash do tema escuro.
+      try {
+        if (localStorage.getItem('cesar-hub:theme') === 'light') document.documentElement.dataset.theme = 'light';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

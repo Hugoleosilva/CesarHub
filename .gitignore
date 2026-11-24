@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+*.local
+graphify-out/cache
+
+# Ilustrações antigas e fotos originais (fora do app, pesadas)
+arquivo/

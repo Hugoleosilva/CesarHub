@@ -1,0 +1,34 @@
+/* Card de Orientações (primeiro de cada área) e painel de resumo da área */
+.area-guide { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.area-guide__item { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border); }
+.area-guide__head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.area-guide__desc { color: var(--muted); font-size: 0.88rem; }
+.area-guide__contacts { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.88rem; }
+.area-guide__contacts > span:first-child { color: var(--muted); }
+.area-guide__contacts a { color: var(--accent); }
+.detail { display: flex; flex-direction: column; gap: 24px; max-width: 1000px; margin: 0 auto; }
+.detail__back { align-self: flex-start; }
+.detail__top { display: grid; grid-template-columns: minmax(200px, 360px) 1fr; gap: 28px; align-items: start; }
+.detail__media { aspect-ratio: 1 / 1; border-radius: var(--radius); overflow: hidden; background: var(--surface); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35); }
+.detail__info { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.detail__info h2 { font-size: 1.8rem; line-height: 1.2; outline: none; }
+.detail__desc { color: var(--muted); }
+.detail__topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.detail__body { display: flex; flex-direction: column; gap: 20px; }
+@media (max-width: 640px) { .detail__top { grid-template-columns: 1fr; } }
+.guide__head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.guide__section { display: flex; flex-direction: column; gap: 8px; }
+.guide__section h3 { font-size: 1rem; border-left: 4px solid var(--accent); padding-left: 10px; }
+.guide__access { align-self: flex-start; }
+.guide__case { padding: 12px 14px; border-radius: 10px; background: var(--surface-2); }
+.guide__case h4 { margin: 0 0 6px; font-size: 0.95rem; }
+.guide__case ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; font-size: 0.92rem; }
+.guide__contacts { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.guide__contacts li { display: flex; flex-direction: column; gap: 2px; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); }
+.guide__contacts small { color: var(--muted); }
+.guide__channels { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.88rem; color: var(--muted); }
+.guide__channels a { color: var(--accent); }
+.guide__links { display: flex; flex-wrap: wrap; gap: 10px; }
+.guide__note { white-space: pre-wrap; padding: 12px 14px; border-radius: 10px; background: var(--surface-2); font-size: 0.92rem; }
+.guide__note-link, .guide__edit { align-self: flex-start; }
+.guide__form { display: flex; flex-direction: column; gap: 12px; }

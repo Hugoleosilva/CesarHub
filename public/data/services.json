@@ -1,0 +1,214 @@
+[
+  {
+    "category": "Pessoas",
+    "guideImage": "/covers/1_orientacoes_pessoas.svg",
+    "items": [
+      {
+        "id": "ponto",
+        "title": "Ponto Eletrônico",
+        "description": "Consultas e ajustes no ponto eletrônico.",
+        "url": "https://portalcolaborador.cesar.org.br/Login.aspx?autoload=false&ReturnUrl=%2fMain.aspx%3fSelectedMenuIDKey%3dbtnEspelhoCartao%26ActionID%3dPtoEspCartaoActionWeb",
+        "image": "/covers/pessoas_ponto.svg",
+        "type": "Portal",
+        "keywords": [
+          "ponto",
+          "controle de ponto",
+          "ponto eletrônico",
+          "bater ponto",
+          "marcação",
+          "banco de horas",
+          "saldo de horas",
+          "ajustar batidas",
+          "incluir horas extras",
+          "horas extras",
+          "abono",
+          "jornada",
+          "frequência"
+        ],
+        "topics": [
+          "Jornada e ponto"
+        ],
+        "guide": {
+          "where": "As orientações estão no Learning Rocks: Integra → Controladoria CESAR → Portal do Colaborador/App Meu RH.",
+          "url": "https://cesar.learning.rocks/missions/qR8P0qn5OGewEWnHI2ly/contents/1415539?ref=missions&ref_detail=qR8P0qn5OGewEWnHI2ly",
+          "contactsIntro": "Departamento Pessoal: garante uma gestão de folha, benefícios e ponto alinhadas às obrigações legais e à integridade dos dados trabalhistas.",
+          "contacts": [
+            {
+              "name": "Rafaella Bonfim",
+              "role": "Departamento Pessoal",
+              "email": "rbga@cesar.org.br",
+              "slack": "@Rafaella Bonfim"
+            },
+            {
+              "name": "Mônica Oliveira",
+              "role": "Departamento Pessoal",
+              "email": "mmsoc@cesar.org.br",
+              "slack": "@Monica Oliveira"
+            },
+            {
+              "name": "Juliana Barros",
+              "role": "Departamento Pessoal",
+              "email": "jcrbo@cesar.org.br",
+              "slack": "@juliana barros"
+            },
+            {
+              "name": "Carolina Basílio",
+              "role": "Departamento Pessoal",
+              "email": "cbml@cesar.org.br",
+              "slack": "@Carolina Basilio"
+            }
+          ]
+        }
+      },
+      { "id": "holerite", "title": "Holerite", "description": "Consulte contracheques e informe de rendimentos.", "url": "https://exemplo.cesar.org.br/holerite", "image": "/covers/pessoas_holerite.svg", "type": "Portal", "keywords": ["contra-cheque", "contracheque", "salário", "pagamento", "imposto de renda"], "topics": ["Remuneração"] },
+      {
+        "id": "plano-saude",
+        "title": "Plano de Saúde",
+        "description": "Inclusão e exclusão de titular e dependentes.",
+        "url": "https://exemplo.zeev.it/plano-saude",
+        "image": "/covers/pessoas_plano-saude.svg",
+        "type": "Zeev",
+        "keywords": [
+          "convênio",
+          "médico",
+          "dependente",
+          "cônjuge",
+          "filho",
+          "carteirinha",
+          "benefício",
+          "acompanhar solicitação"
+        ],
+        "topics": [
+          "Benefícios",
+          "Saúde e bem-estar"
+        ],
+        "guide": {
+          "where": "Abra a solicitação pelo Zeev, em Benefícios > Plano de Saúde.",
+          "url": "https://exemplo.cesar.org.br/orientacoes/plano-saude",
+          "cases": [
+            {
+              "title": "Inclusão de dependente",
+              "steps": [
+                "Clique em “Acessar Plano de Saúde” e escolha “Inclusão de dependente”.",
+                "Preencha os dados do dependente e anexe os documentos pedidos no formulário.",
+                "Envie e guarde o número do protocolo para acompanhar o andamento."
+              ]
+            },
+            {
+              "title": "Exclusão de dependente ou titular",
+              "steps": [
+                "Clique em “Acessar Plano de Saúde” e escolha “Exclusão”.",
+                "Informe quem será excluído e a data desejada.",
+                "Acompanhe pelo protocolo; o RH confirma por e-mail quando concluir."
+              ]
+            }
+          ],
+          "contacts": [
+            {
+              "name": "Responsável de Benefícios (exemplo)",
+              "role": "Gente & Gestão",
+              "email": "beneficios@exemplo.cesar.org.br",
+              "slack": "#beneficios"
+            },
+            {
+              "name": "Suporte ao Colaborador (exemplo)",
+              "role": "Atendimento RH",
+              "email": "rh@exemplo.cesar.org.br"
+            }
+          ]
+        }
+      },
+      { "id": "ferias", "title": "Solicitação de Férias", "description": "Planeje e solicite suas férias.", "url": "https://exemplo.cesar.org.br/ferias", "image": "/covers/pessoas_ferias.svg", "type": "Formulário", "keywords": ["descanso", "folga", "licença", "recesso"], "topics": ["Férias e folgas"] },
+      { "id": "abonos-legais", "title": "Abonos Legais", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/abonos-legais", "image": "/covers/pessoas_abonos-legais.svg", "type": "Serviço", "keywords": ["abono", "abono legal", "falta justificada", "licença", "afastamento"], "topics": ["Férias e folgas"] },
+      { "id": "va-vr", "title": "VA/VR", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/va-vr", "image": "/covers/pessoas_va-vr.svg", "type": "Serviço", "keywords": ["vale alimentação", "vale refeição", "va", "vr", "cartão benefício"], "topics": ["Benefícios"] },
+      { "id": "wellhub", "title": "WellHub", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/wellhub", "image": "/covers/pessoas_wellhub.svg", "type": "Serviço", "keywords": ["wellhub", "gympass", "academia", "bem-estar", "saúde"], "topics": ["Benefícios", "Saúde e bem-estar"] },
+      { "id": "beneficios", "featured": true, "title": "Portal de Benefícios", "description": "Vale-refeição, plano de saúde e convênios.", "url": "https://exemplo.cesar.org.br/beneficios", "image": "/covers/pessoas_beneficios.svg", "type": "Portal", "keywords": ["plano de saúde", "médico", "dentista", "vale refeição", "vale alimentação", "gympass"], "topics": ["Benefícios"] },
+      { "id": "avaliacao", "featured": true, "title": "Avaliação de Desempenho", "description": "Ciclo sazonal de avaliações e feedbacks.", "url": "https://exemplo.cesar.org.br/avaliacao", "image": "/covers/pessoas_avaliacao.svg", "type": "Portal", "keywords": ["feedback", "ciclo", "meta", "promoção", "pdi"], "topics": ["Carreira"] }
+    ]
+  },
+  {
+    "category": "Solicitações",
+    "guideImage": "/covers/1_orientacoes_solicitacao.svg",
+    "items": [
+      {
+        "id": "auxilio-creche",
+        "title": "Auxílio Creche",
+        "description": "Solicite, acompanhe ou entenda mais sobre o seu reembolso.",
+        "url": "https://cesar.zeev.it/my/services-legacy",
+        "image": "/covers/solicitacao_auxilio-creche.svg",
+        "type": "Zeev",
+        "keywords": [
+          "auxílio creche",
+          "creche",
+          "babá",
+          "reembolso creche",
+          "escola filho",
+          "filho",
+          "filhos",
+          "benefício",
+          "acompanhar solicitação"
+        ],
+        "topics": [
+          "Benefícios"
+        ],
+        "guide": {
+          "where": "Acesse https://cesar.zeev.it/ com seu usuário Google. Mais detalhes no Learning Rocks: Integra → Serviços Integrados → Conheça o Zeev.",
+          "contactsIntro": "Departamento Pessoal: garante uma gestão de folha, benefícios e ponto alinhadas às obrigações legais e à integridade dos dados trabalhistas.",
+          "cases": [
+            {
+              "title": "O que você precisa saber",
+              "steps": [
+                "O prazo para realizar a solicitação é até o dia 10 de cada mês. Caso seja realizado após o dia 10, o processo ficará pausado aguardando a mudança de competência da folha e o reembolso ficará para o próximo mês.",
+                "Tem direito ao benefício pais de criança matriculada no ensino regular (reconhecido pelo MEC) com idade até 6 anos 11 meses e 29 dias ou funcionária Babá registrada e, para os colaboradores que recebem o salário até R$1.950,00, fica fixada a idade de até 7 anos 11 meses e 29 dias.",
+                "É possível solicitar o reembolso de até 3 meses retroativo.",
+                "Não é necessário se inscrever anualmente. Uma vez inscrito, é só solicitar reembolso e anexar o comprovante.",
+                "Caso seu filho mude de escola, não precisa se inscrever de novo. Basta comprovar a despesa na solicitação de reembolso."
+              ]
+            }
+          ]
+        }
+      },
+      { "id": "auxilio-idiomas", "title": "Auxílio Idiomas", "description": "Peça e acompanhe o auxílio para cursos de idiomas.", "url": "https://exemplo.zeev.it/auxilio-idiomas", "image": "/covers/solicitacao_auxilio-idiomas.svg", "type": "Zeev", "keywords": ["inglês", "espanhol", "curso de idioma", "benefício", "reembolso idiomas", "acompanhar solicitação"], "topics": ["Benefícios", "Educação"] },
+      { "id": "auxilio-lente", "title": "Auxílio Lente", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/auxilio-lente", "image": "/covers/solicitacao_auxilio-lente.svg", "type": "Zeev", "keywords": ["lente", "óculos", "oftalmo", "reembolso lente", "benefício", "acompanhar solicitação"], "topics": ["Benefícios", "Saúde e bem-estar"] },
+      { "id": "day-off", "title": "Day Off", "description": "Solicite seu dia de folga e acompanhe a aprovação.", "url": "https://exemplo.zeev.it/day-off", "image": "/covers/solicitacao_day-off.svg", "type": "Zeev", "keywords": ["folga", "aniversário", "dia livre", "descanso", "acompanhar solicitação"], "topics": ["Férias e folgas"] },
+      { "id": "reembolso", "title": "Reembolso de Despesas", "description": "Envie notas e comprovantes para reembolso.", "url": "https://exemplo.cesar.org.br/reembolso", "image": "/covers/solicitacao_reembolso.svg", "type": "Formulário", "keywords": ["nota fiscal", "viagem", "despesa", "devolução de gastos"], "topics": ["Remuneração"] },
+      { "id": "atestado", "title": "Envio de Atestado", "description": "Entregue atestados médicos e declarações.", "url": "https://exemplo.cesar.org.br/atestado", "image": "/covers/solicitacao_atestado.svg", "type": "Formulário", "keywords": ["médico", "doença", "falta", "afastamento", "declaração"], "topics": ["Saúde e bem-estar"] },
+      { "id": "zeev", "title": "Todas as solicitações (Zeev)", "description": "Catálogo completo de serviços e acompanhamento dos seus pedidos.", "url": "https://exemplo.zeev.it", "image": "/covers/solicitacao_zeev.svg", "type": "Zeev", "keywords": ["zeev", "solicitação", "pedido", "protocolo", "acompanhar", "status", "rh", "outras solicitações"] },
+      { "id": "chamados-ti", "title": "Chamados de TI", "description": "Abra chamados de suporte técnico.", "url": "https://exemplo.cesar.org.br/ti", "image": "/covers/solicitacao_chamados-ti.svg", "type": "Chamados", "keywords": ["computador quebrado", "notebook", "suporte", "problema", "defeito", "senha"], "topics": ["Suporte e TI"] },
+      { "id": "acessos", "title": "Solicitação de Acessos", "description": "Peça acesso a sistemas e repositórios.", "url": "https://exemplo.cesar.org.br/acessos", "image": "/covers/solicitacao_acessos.svg", "type": "Formulário", "keywords": ["permissão", "liberar", "vpn", "login", "conta"], "topics": ["Suporte e TI"] },
+      { "id": "equipamentos", "title": "Requisição de Equipamentos", "description": "Solicite notebook, monitor e periféricos.", "url": "https://exemplo.cesar.org.br/equipamentos", "image": "/covers/solicitacao_equipamentos.svg", "type": "Formulário", "keywords": ["mouse", "teclado", "monitor", "headset", "hardware"], "topics": ["Suporte e TI"] },
+      { "id": "facilities", "title": "Facilities e Espaços", "description": "Reserve salas e reporte demandas do prédio.", "url": "https://exemplo.cesar.org.br/facilities", "image": "/covers/solicitacao_facilities.svg", "type": "Chamados", "keywords": ["sala de reunião", "ar condicionado", "estacionamento", "manutenção", "limpeza"], "topics": ["Escritório"] },
+      { "id": "juridico", "title": "Jurídico e Contratos", "description": "Solicite análise de contratos e NDAs.", "url": "https://exemplo.cesar.org.br/juridico", "image": "/covers/solicitacao_juridico.svg", "type": "Chamados", "keywords": ["nda", "contrato", "parecer", "assinatura"] }
+    ]
+  },
+  {
+    "category": "Ferramentas",
+    "guideImage": "/covers/1_orientacoes_ferramentas.svg",
+    "items": [
+      { "id": "jira", "title": "Jira", "description": "Gestão de projetos, sprints e backlog.", "url": "https://exemplo.atlassian.net/jira", "image": "/covers/ferramentas_jira.svg", "type": "Projetos", "keywords": ["tarefa", "issue", "sprint", "kanban", "atlassian"], "topics": ["Colaboração"] },
+      { "id": "confluence", "title": "Confluence", "description": "Documentação e base de conhecimento.", "url": "https://exemplo.atlassian.net/wiki", "image": "/covers/ferramentas_confluence.svg", "type": "Documentação", "keywords": ["wiki", "documento", "processo", "atlassian"], "topics": ["Colaboração"] },
+      { "id": "drive", "title": "Google Drive", "description": "Arquivos e pastas compartilhadas.", "url": "https://drive.google.com", "image": "/covers/ferramentas_drive.svg", "type": "Google", "keywords": ["planilha", "documento", "google workspace", "arquivos"], "topics": ["Colaboração"] },
+      { "id": "agenda", "title": "Google Agenda", "description": "Compromissos, reuniões e salas.", "url": "https://calendar.google.com", "image": "/covers/ferramentas_agenda.svg", "type": "Google", "keywords": ["calendário", "reunião", "meet", "convite"], "topics": ["Colaboração"] },
+      { "id": "slack", "title": "Slack", "description": "Comunicação entre times e canais.", "url": "https://slack.com/app_redirect", "image": "/covers/ferramentas_slack.svg", "type": "Comunicação", "keywords": ["chat", "mensagem", "canal", "conversa"], "topics": ["Colaboração"] },
+      { "id": "gmail", "title": "Gmail", "description": "E-mail corporativo do Google.", "url": "https://mail.google.com", "image": "/covers/ferramentas_gmail.svg", "type": "Google", "keywords": ["e-mail", "email", "correio", "caixa de entrada", "google workspace"], "topics": ["Colaboração"] },
+      { "id": "apresentacoes", "title": "Apresentações", "description": "Apresentações do Google Slides.", "url": "https://docs.google.com/presentation/", "image": "/covers/ferramentas_apresentacoes.svg", "type": "Google", "keywords": ["slides", "google slides", "apresentação", "powerpoint", "google workspace"], "topics": ["Colaboração"] },
+      { "id": "deskbee", "title": "Deskbee", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/deskbee", "image": "/covers/ferramentas_deskbee.svg", "type": "Serviço", "keywords": ["reserva de mesa", "estação de trabalho", "escritório", "sala", "coworking"], "topics": ["Escritório"] },
+      { "id": "vpn", "title": "VPN", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/vpn", "image": "/covers/ferramentas_vpn.svg", "type": "Serviço", "keywords": ["acesso remoto", "rede", "home office", "conexão segura"], "topics": ["Suporte e TI"] }
+    ]
+  },
+  {
+    "category": "Aprendizagem",
+    "guideImage": "/covers/1_orientacoes_aprendizagem.svg",
+    "items": [
+      { "id": "cursos", "featured": true, "title": "Plataforma de Cursos", "description": "Trilhas e cursos corporativos.", "url": "https://exemplo.cesar.org.br/cursos", "image": "/covers/aprendizagem_cursos.svg", "type": "Portal", "keywords": ["treinamento", "capacitação", "certificado", "trilha", "aprender"], "topics": ["Educação"] },
+      { "id": "biblioteca", "title": "Biblioteca Digital", "description": "Livros, artigos e materiais de estudo.", "url": "https://exemplo.cesar.org.br/biblioteca", "image": "/covers/aprendizagem_biblioteca.svg", "type": "Portal", "keywords": ["livro", "artigo", "leitura", "pesquisa"], "topics": ["Educação"] },
+      { "id": "idiomas", "title": "Programa de Idiomas", "description": "Aulas de inglês e espanhol para colaboradores.", "url": "https://exemplo.cesar.org.br/idiomas", "image": "/covers/aprendizagem_idiomas.svg", "type": "Portal", "keywords": ["inglês", "espanhol", "aula", "language"], "topics": ["Educação"] },
+      { "id": "school", "title": "CESAR School", "description": "Graduação, pós e extensão para estudantes.", "url": "https://exemplo.cesar.org.br/school", "image": "/covers/aprendizagem_school.svg", "type": "Portal", "keywords": ["aluno", "estudante", "faculdade", "pós-graduação", "notas"], "topics": ["Educação"] },
+      { "id": "conecta", "title": "Conecta", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/conecta", "image": "/covers/aprendizagem_conecta.svg", "type": "Portal", "keywords": ["hub de aprendizagens", "conteúdo", "conhecimento", "compartilhar"], "topics": ["Educação"] },
+      { "id": "desenvolvimento-profissional", "title": "Desenvolvimento Profissional", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/desenvolvimento-profissional", "image": "/covers/aprendizagem_desenvolvimento-profissional.svg", "type": "Portal", "keywords": ["carreira", "trilha", "crescimento", "desenvolvimento"], "topics": ["Carreira", "Educação"] },
+      { "id": "knowbe4", "title": "KnowBe4", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/knowbe4", "image": "/covers/aprendizagem_knowbe4.svg", "type": "Portal", "keywords": ["segurança da informação", "phishing", "treinamento de segurança", "lgpd"], "topics": ["Segurança"] },
+      { "id": "learning-rocks", "title": "Learning Rocks", "description": "Plataforma de aprendizagem do CESAR.", "url": "https://cesar.learning.rocks/", "image": "/covers/aprendizagem_learning-rocks.svg", "type": "Portal", "keywords": ["cursos", "trilhas", "missões", "integra", "treinamento"], "topics": ["Educação"] },
+      { "id": "pdi", "title": "PDI", "description": "Descrição a preencher.", "url": "https://exemplo.cesar.org.br/pdi", "image": "/covers/aprendizagem_pdi.svg", "type": "Portal", "keywords": ["plano de desenvolvimento individual", "qulture", "metas", "feedback", "carreira"], "topics": ["Carreira"] }
+    ]
+  }
+]

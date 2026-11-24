@@ -1,0 +1,45 @@
+:root,
+:root[data-theme='dark'] {
+  --bg: #0e1116;
+  --surface: #181c24;
+  --surface-2: #232a36;
+  --text: #f0f3f6;
+  --muted: #9aa4b2;
+  --accent: #ff5500;
+  --accent-soft: rgba(255, 85, 0, 0.16);
+  --tag-text: #ff8a4d;
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: rgba(0, 0, 0, 0.55);
+  --header-bg: rgba(14, 17, 22, 0.92);
+  --header-text: var(--text);
+  --header-pill: rgba(255, 255, 255, 0.14);
+  --brand-accent: var(--accent);
+  --card-bg: #171b22;
+  --card-text: #f0f3f6;
+  --card-muted: #9aa4b2;
+  --radius: 12px;
+  --header-h: 56px;
+  color-scheme: dark;
+}
+
+/* Tema claro: branco e laranja, seguindo a identidade do CESAR (Conecta/Qulture). */
+:root[data-theme='light'] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-2: #eceef1;
+  --text: #1c1c1e;
+  --muted: #5f6b7a;
+  --accent: #ff6a13;
+  --accent-soft: rgba(255, 106, 19, 0.14);
+  --tag-text: #c2410c;
+  --border: rgba(0, 0, 0, 0.1);
+  --shadow: rgba(0, 0, 0, 0.22);
+  --header-bg: #fafbfc;
+  --header-text: #2b2b2b;
+  --header-pill: rgba(0, 0, 0, 0.06);
+  --brand-accent: var(--accent);
+  --card-bg: #ffffff;
+  --card-text: #1c1c1e;
+  --card-muted: #5f6b7a;
+  color-scheme: light;
+}
