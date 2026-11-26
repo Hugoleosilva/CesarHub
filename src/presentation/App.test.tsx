@@ -486,6 +486,13 @@ describe('App', () => {
     });
   });
 
+  it('o botão do Cesinha abre a conversa dele direto no aplicativo do Slack', async () => {
+    setup();
+    await screen.findByRole('heading', { name: 'Pessoas' });
+    const link = screen.getByRole('link', { name: /Fala com o Cesinha/ });
+    expect(link).toHaveAttribute('href', 'slack://user?team=T02FSLY4W&id=U0CEE3R387Q');
+  });
+
   it('Esc fecha o Personalizar logo ao abrir, sem clicar em nada dentro', async () => {
     const user = userEvent.setup();
     setup();

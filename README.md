@@ -117,7 +117,7 @@ src/presentation/
 
 ## Pendências e limitações
 
-- **Conteúdo incompleto:** 32 dos 39 serviços ainda têm link de exemplo (`exemplo.cesar.org.br` ou `exemplo.zeev.it`) e vários têm a descrição "Descrição a preencher.". Orientações completas existem só para Ponto Eletrônico, Auxílio Creche e Plano de Saúde (este com dados de exemplo).
+- **Conteúdo incompleto:** 32 dos 40 serviços ainda têm link de exemplo (`exemplo.cesar.org.br` ou `exemplo.zeev.it`) e vários têm a descrição "Descrição a preencher.". Orientações completas existem só para Ponto Eletrônico, Auxílio Creche e Plano de Saúde (este com dados de exemplo).
 - **Capas provisórias:** ícones sóbrios gerados por código, a serem trocados por imagens do pacote de identidade do CESAR (confirmar a licença de qualquer ícone de banco externo).
 - **Tópicos:** lista proposta pelo desenvolvimento, precisa de validação das áreas.
 - **Verificação visual manual:** telas conferidas no Chrome (escuro, claro e celular emulado); sem teste em celulares reais nem com leitor de tela.

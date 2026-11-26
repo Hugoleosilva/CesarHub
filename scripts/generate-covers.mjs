@@ -56,12 +56,13 @@ const GLYPHS = {
   rocket: '<path d="M12 3c3.500 2 5.500 5.500 5.500 9.500L15 17H9l-2.500-4.500C6.500 8.500 8.500 5 12 3z"/><circle cx="12" cy="10" r="1.800"/><path d="M9 17l-1.500 4M15 17l1.500 4M6.500 12.500L4 15.500M17.500 12.500l2.500 3"/>',
   target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
   users: '<circle cx="9" cy="8.500" r="3.500"/><path d="M2.500 20c.500-3.500 3.200-5.500 6.500-5.500s6 2 6.500 5.500M16 5.200a3.500 3.500 0 0 1 0 6.600M18 14.800c2 .700 3.200 2.300 3.500 5.200"/>',
+  briefcase: '<rect x="3" y="7.500" width="18" height="12.500" rx="2"/><path d="M9 7.500V5.500A1.500 1.500 0 0 1 10.500 4h3A1.500 1.500 0 0 1 15 5.500v2M3 13h18M10.500 13v1.500h3V13"/>',
   inbox: '<path d="M3 13l2.500-7.500h13L21 13M3 13v6h18v-6M3 13h5.500a3.500 3.500 0 0 0 7 0H21"/>',
 };
 
 const ICON_OF_SERVICE = {
   ponto: 'clock', holerite: 'receipt', 'plano-saude': 'heart', ferias: 'sun', 'abonos-legais': 'calendarCheck',
-  'va-vr': 'card', wellhub: 'dumbbell', beneficios: 'gift', avaliacao: 'chart',
+  'va-vr': 'card', wellhub: 'dumbbell', beneficios: 'gift', avaliacao: 'chart', vagas: 'briefcase',
   'auxilio-creche': 'smile', 'auxilio-idiomas': 'chat', 'auxilio-lente': 'glasses', 'day-off': 'coffee',
   reembolso: 'wallet', atestado: 'fileCross', zeev: 'listCheck', 'chamados-ti': 'wrench', acessos: 'key',
   equipamentos: 'laptop', facilities: 'building', juridico: 'scale',

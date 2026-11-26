@@ -17,6 +17,7 @@ import './presentation/styles/buttons.css';
 import './presentation/styles/catalog.css';
 import './presentation/styles/carousel.css';
 import './presentation/styles/card.css';
+import './presentation/styles/assistant.css';
 import './presentation/styles/hero.css';
 import './presentation/styles/dialog.css';
 import './presentation/styles/guide.css';

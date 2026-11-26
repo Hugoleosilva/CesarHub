@@ -10,6 +10,7 @@ import type { Filters } from '../domain/filters';
 import { PERSONAL_SECTION } from '../domain/layout';
 import { AppDialogs } from './AppDialogs';
 import { ErrorBoundary } from './components/ui/ErrorBoundary';
+import { AssistantButton } from './features/shell/AssistantButton';
 import { Header } from './features/shell/Header';
 import { HeaderActions } from './features/shell/HeaderActions';
 import { MainContent } from './MainContent';
@@ -97,6 +98,7 @@ export function App({
           />
         )}
       </main>
+      <AssistantButton />
       <AppDialogs
         catalog={catalog}
         guideArea={nav.guideArea}
